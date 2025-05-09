@@ -1,0 +1,26 @@
+[versions]
+androidx-appcompat = "1.6.1"
+androidx-constraintlayout = "2.1.4"
+androidx-core = "1.12.0"
+androidx-test-espresso = "3.5.1"
+androidx-test-ext-junit = "1.1.5"
+dagger = "2.51.1"
+junit = "4.13.2"
+material = "1.11.0"
+retrofit = "2.11.0"
+
+[libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+androidx-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-test-espresso" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+dagger-android = { group = "com.google.dagger", name = "dagger-android", version.ref = "dagger" }
+dagger-android-support = { group = "com.google.dagger", name = "dagger-android-support", version.ref = "dagger" }
+dagger-android-processor = { group = "com.google.dagger", name = "dagger-android-processor", version.ref = "dagger" }
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+dagger-core = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
