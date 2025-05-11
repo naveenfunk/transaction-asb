@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -46,11 +47,8 @@ android {
 
 dependencies {
 
-    implementation(libs.dagger.core)
-    ksp(libs.dagger.compiler)
-    implementation(libs.dagger.android)
-    implementation(libs.dagger.android.support)
-    ksp(libs.dagger.android.processor)
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
 
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.converter.moshi)
