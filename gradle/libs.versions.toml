@@ -1,12 +1,15 @@
 [versions]
-androidx-appcompat = "1.6.1"
-androidx-constraintlayout = "2.1.4"
-androidx-core = "1.12.0"
-androidx-test-espresso = "3.5.1"
-androidx-test-ext-junit = "1.1.5"
-dagger = "2.51.1"
+androidGradlePlugin = "8.10.0"
+androidx-appcompat = "1.7.0"
+androidx-constraintlayout = "2.2.1"
+androidx-core = "1.16.0"
+androidx-test-espresso = "3.6.1"
+androidx-test-ext-junit = "1.2.1"
+dagger = "2.56.2"
 junit = "4.13.2"
-material = "1.11.0"
+ksp = "2.1.20-2.0.1"
+kotlin = "2.1.20"
+material = "1.12.0"
 retrofit = "2.11.0"
 
 [libraries]
@@ -24,3 +27,9 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+dagger = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
