@@ -1,13 +1,20 @@
 package nz.co.test.transactions.activities
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import nz.co.test.transactions.R
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import dagger.hilt.android.AndroidEntryPoint
 
-class MainActivity : AppCompatActivity() {
+@AndroidEntryPoint
+class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
+
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContent {
+
+        }
     }
 }
