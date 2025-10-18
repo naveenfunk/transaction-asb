@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Transactions</string>
+    <string name="gst_s">GST: %s</string>
+    <string name="minus_s">-%s</string>
+    <string name="no_transactions_found">No transactions found!</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="loading">Loading …</string>
+    <string name="transaction_details">Transaction Details</string>
 </resources>
