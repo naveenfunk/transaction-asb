@@ -9,6 +9,11 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import nz.co.test.transactions.R
 
+/*
+* TODO This widget can be used at one place but due to lack of time I've to use
+*  in both the screens separately. Also I wanted to add back button function but
+*  couldn't do it due to time constraints.
+* */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppTopBar(

@@ -26,6 +26,7 @@ fun TransactionAppTheme(content: @Composable () -> Unit) {
 
 // Helper to access theme
 object AppTheme {
+    // TODO I wanted to include colors and spacing in the theme but have to skip due to time constraints
     val typography: AppTypography
         @Composable
         @ReadOnlyComposable

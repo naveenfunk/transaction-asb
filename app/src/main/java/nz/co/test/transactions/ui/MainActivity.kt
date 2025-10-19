@@ -8,7 +8,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.toRoute
 import dagger.hilt.android.AndroidEntryPoint
 import nz.co.test.transactions.ui.home.HomeScreen
 import nz.co.test.transactions.ui.theme.TransactionAppTheme

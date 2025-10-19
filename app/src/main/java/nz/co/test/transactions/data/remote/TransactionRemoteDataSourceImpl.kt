@@ -1,6 +1,5 @@
 package nz.co.test.transactions.data.remote
 
-import kotlinx.coroutines.CoroutineDispatcher
 import nz.co.test.transactions.data.model.Transaction
 import javax.inject.Inject
 
